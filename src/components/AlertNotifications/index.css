@@ -1,0 +1,81 @@
+/* Write your CSS here */
+/* * {
+  border: 1px solid blue;
+} */
+
+.alert-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.alert-content-container {
+  width: 80%;
+  max-width: 1140px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.alert-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+@media screen and (max-width: 567px) {
+  .alert-heading {
+    font-size: 33px;
+    text-align: center;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 567px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.icon {
+  height: 50px;
+  min-width: 28px;
+  margin: 0;
+  margin-right: 20px;
+  align-self: flex-start;
+  flex-shrink: 1;
+}
+
+.content-container {
+  margin-top: 0;
+}
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+/* Hex: #64748b
+Hex: #2dca73
+Hex: #ff0b37
+Hex: #ffb800
+Hex: #0f81e0
+Hex: #e5e5e5
+Hex: #0f172a
+Hex: #475569 */
